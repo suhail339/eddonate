@@ -59,3 +59,23 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+
+buildscript {
+  // ...
+  dependencies {
+    // ...
+    // Add the following line:
+    classpath 'com.google.gms:google-services:3.2.1' // Google Services plugin
+  }
+  // Add the following line to the bottom of the file:
+apply plugin: 'com.google.gms.google-services' // Gradle plugin
+}
+allprojects {
+  // ...
+  repositories {
+    // ...
+    // Check that you have following line (if not, add it):
+    google() // Google's Maven repository
+  }
+}

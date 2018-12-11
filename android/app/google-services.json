@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "162879584095",
+    "firebase_url": "https://flutter339-315d7.firebaseio.com",
+    "project_id": "flutter339-315d7",
+    "storage_bucket": "flutter339-315d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162879584095:android:5b8922fd3ff2b55a",
+        "android_client_info": {
+          "package_name": "com.smartminds.eddonate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162879584095-tcnf0cabk23pld6b34bvrgsog029fmm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5mCWeffkSnrd1gY8vxUqWhDLng_G5BP0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
