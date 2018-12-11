@@ -1,4 +1,4 @@
-package com.example.eddonate;
+package com.smartminds.eddonate;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

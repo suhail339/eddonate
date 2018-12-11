@@ -33,7 +33,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.eddonate"
+        applicationId "com.smartminds.eddonate"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode flutterVersionCode.toInteger()
@@ -64,9 +64,7 @@ dependencies {
 buildscript {
   // ...
   dependencies {
-    // ...
-    // Add the following line:
-    classpath 'com.google.gms:google-services:3.2.1' // Google Services plugin
+
   }
   // Add the following line to the bottom of the file:
 apply plugin: 'com.google.gms.google-services' // Gradle plugin
